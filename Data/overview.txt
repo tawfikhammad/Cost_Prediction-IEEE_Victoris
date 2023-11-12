@@ -1,0 +1,48 @@
+Description
+
+Welcome to the Regression Challenge: Predicting Market Costs! This competition tasks you with building advanced regression models to accurately predict the costs of products within a diverse market landscape. Leveraging a comprehensive dataset, including factors ranging from market dynamics to consumer attributes, your goal is to develop models that uncover hidden patterns in the data to provide precise cost predictions.
+
+NOTE THAT:
+Given the varied sources of data, participants will need to proficiently merge training dataframes to create comprehensive models capable of predicting costs.
+
+Evaluation
+
+Evaluation Metric:
+The evaluation metric for this competition is the Root Mean Squared Error (RMSE).
+
+Submission Format:
+Teams should submit a CSV file with exactly 19,942 rows with 2 columns; submission will return an Invalid Score if you have extra rows or columns.
+
+Notes:
+The public leaderboard is evaluated on 75% of Test data.
+Do not shuffle the sequence of the test series.
+
+Dataset Description
+
+Files and Folders
+
+IEEE_Victoris2_Filtration_train_data - folder containing the training set
+test.csv - the test set
+sample_submission.csv - a sample submission file in the correct format
+Please be aware that this dataset is composed of numerous files, which could result in minor variations in certain column names or even the internal structure of the data.
+
+Features in test data
+
+Person Description - Description of the person visiting the market
+Place Code - Code for each place which consists of 2 city codes parts separated by "_"
+Customer Order - Order of each customer in the market
+Additional Features in market - A list of features that are found in the market
+Promotion Name - Made by the market on media
+Store Kind - A genre for the store
+Store Cost - Cost of the Store
+Store Sales - The amount of money spent on sales that have been made since the store first opened.
+Gross Weight - Bought item weight
+Net Weight - Bought item weight without the package
+Package Weight - Weight of the Package
+Is Recyclable? - If the item is Recyclable or no
+Yearly Income - min. Income for the consumer per year
+Store Area - Area of the store
+Grocery Area - Area of grocery department in the store
+Frozen Area - Area of frozen food department in the store
+Meat Area - Area of Meat department in the store
+Cost - The target variable
